@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(onPressed:   () {
-        throw InternetExceptions('Message ');
+        throw InternetExceptions('Message');
       },),
     );
   }
