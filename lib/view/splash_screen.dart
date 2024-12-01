@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm_getx/data/app_exceptions.dart';
+import 'package:flutter_mvvm_getx/res/assets/images_assets.dart';
+import 'package:flutter_mvvm_getx/res/components/internet_exception_widget.dart';
+import 'package:get/get.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -11,10 +13,12 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
+    // return InternetExceptionWidget();
+
     return Scaffold(
-      floatingActionButton: FloatingActionButton(onPressed:   () {
-        throw InternetExceptions('Message');
-      },),
-    );
+        appBar: AppBar(
+          title: Text('email_hint'.tr),
+        ),
+        body: InternetExceptionWidget());
   }
 }

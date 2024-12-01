@@ -9,7 +9,9 @@ F = folder
    data/network/network_api_services.dart = For defined extract classes here   
 5. Route manage = screen manage ==> res/routes/routes_name.dart && res/routes/routes.dart
 6. Utilis = same color theme , etc.. (if i'm using same style color toast etc then defined utils folder and use)
-7. Languages ==> res/getx_loclization/languages.dart && main.dart (For different languages) 
+7. Languages ==> res/getx_loclization/languages.dart && main.dart (For different languages)
+8. Set assets folder => images , fonts , icon defined assets folder  
+9. How to defined component and how to use this in project
 
 
 */ 
